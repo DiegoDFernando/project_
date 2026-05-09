@@ -28,7 +28,7 @@ Raw multi-source CSV files were cleaned and structured in Excel, where primary k
 
 <img width="1348" height="762" alt="definitivo" src="https://github.com/user-attachments/assets/2458c686-35cc-40c2-9ea4-0facbcce3d27" />
 
-Decisiones clave de diseño
+Key design decisions
 
 Surrogate keys (country_id, brand_id, date_id, keyword_id, drivetrain_id) were created in Excel before being imported into SQL Server.
 All fact tables reference dimension tables using foreign keys.
